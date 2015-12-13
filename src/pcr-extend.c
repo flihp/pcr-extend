@@ -228,7 +228,7 @@ extend_out:
 int
 main (int argc, char *argv[])
 {
-    FILE *file = NULL;
+    FILE *file = stdin;
     extend_args_t extend_args = { 0 };
     char *buf = NULL;
     unsigned int buf_len = 0;
